@@ -7,7 +7,7 @@ Implementasi end-to-end pipeline klasifikasi 10 jenis hewan dari dataset **Anima
 
 ## 👥 Penulis
 - **Nama:** Fayadh Rizqi Zamzami  
-- **Email:** _your.email@example.com_  
+- **Email:** _farizam1504@gmail.com_  
 - **Institusi:** Universitas Brawijaya  
 
 ---
