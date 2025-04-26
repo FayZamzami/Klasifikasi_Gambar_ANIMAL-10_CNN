@@ -22,12 +22,6 @@ Implementasi end-to-end pipeline klasifikasi 10 jenis hewan dari dataset **Anima
 
 ---
 
-## 📂 Struktur Direktori
-. ├── animal_dataset/raw-img/ # folder gambar per kelas ├── saved_model/ # hasil export TensorFlow SavedModel ├── tflite/ # model .tflite + label.txt ├── tfjs_model/ # model web (TFJS) └── notebook.ipynb # Jupyter notebook utama
-
-
----
-
 ## 🚀 Alur Kerja
 
 1. **Pengumpulan & Eksplorasi Data**  
@@ -49,19 +43,10 @@ Implementasi end-to-end pipeline klasifikasi 10 jenis hewan dari dataset **Anima
    - Classification report & confusion matrix  
    - Visualisasi prediksi acak di test set  
 
-5. **Konversi untuk Deployment**  
-   - **SavedModel** (server/cloud)  
-   - **TensorFlow Lite** (mobile/embedded) + `label.txt`  
-   - **TensorFlow.js** (browser)  
-
-6. **Prediksi Interaktif**  
-   - GUI sederhana (Tkinter) untuk memilih gambar  
-   - Tampilkan gambar & hasil klasifikasi  
-
 ---
 
 ## 📊 Hasil Akhir
-- **Test Accuracy:** _isi di sini (misal 92.5%)_  
+- **Test Accuracy:** 94.88%  
 - **Model Sizes:**  
   - SavedModel: `saved_model/`  
   - TFLite: `tflite/model.tflite` (~ KB/MB)  
